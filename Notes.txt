@@ -1,0 +1,16 @@
+To setup project
+Follow tutorial > https://www.youtube.com/watch?v=tR8Kghw4HpA 
+up to unit testing of calculator
+
+Downgrade chai
+E:\Git\TypeScript-CodeWars> npm install chai@4.3.7
+
+tsconfig > Add the /* Emit */ section
+
+generate js using "tsc" command
+E:\Git\TypeScript-CodeWars> tsc
+
+E:\Git\TypeScript-CodeWars> npm run test
+
+auto indent
+shft+alt+f
