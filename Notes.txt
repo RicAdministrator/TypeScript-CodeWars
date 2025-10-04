@@ -1,3 +1,7 @@
+Before you push to GitHub
+Make sure to run tsc
+Then perform "npm run test"
+
 To setup project
 Follow tutorial > https://www.youtube.com/watch?v=tR8Kghw4HpA 
 up to unit testing of calculator
@@ -11,6 +15,8 @@ generate js using "tsc" command
 E:\Git\TypeScript-CodeWars> tsc
 
 E:\Git\TypeScript-CodeWars> npm run test
+
+E:\Git\TypeScript-CodeWars> npx mocha --require ts-node/register test\a_8kyu_a_needle_in_the_haystack.spec.ts
 
 auto indent
 shft+alt+f
