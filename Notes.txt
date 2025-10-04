@@ -1,6 +1,20 @@
-Before you push to GitHub
-Make sure to run tsc
-Then perform "npm run test"
+Before you push to GitHub:
+1. Make sure to run tsc. 1 ts file will generate 2 js files.
+
+2. Testing
+If you are going to test using chai, update package.json to use
+"scripts": {
+    "test": "mocha --require ts-node/register test/**.spec.ts"
+  },
+then run "npm run test"
+
+if you are going to test using jest, update package.json to use
+"scripts": {
+    "test": "jest"
+},
+then run "npm test" or "npm run test"
+
+3. Push to GitHub
 
 To setup project
 Follow tutorial > https://www.youtube.com/watch?v=tR8Kghw4HpA 

@@ -1,7 +1,7 @@
 import { assert } from "chai";
 import { snail } from "../src/e_4kyu_snail";
 
-describe("Test e_4kyu_snail", () => {
+describe("Test e_4kyu_snail.spec.ts", () => {
     it("test", () => {
         assert.deepEqual(snail([[]]), []);
         assert.deepEqual(snail([[1]]), [1]);

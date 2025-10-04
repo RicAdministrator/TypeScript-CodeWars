@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const a_8kyu_a_needle_in_the_haystack_1 = require("../src/a_8kyu_a_needle_in_the_haystack");
 const chai_1 = require("chai");
-describe('Test a_8kyu_a_needle_in_the_haystack', () => {
+describe('Test a_8kyu_a_needle_in_the_haystack.spec.ts', () => {
     it('basic tests', () => {
         chai_1.assert.strictEqual((0, a_8kyu_a_needle_in_the_haystack_1.findNeedle)(['3', '123124234', null, 'needle', 'world', 'hay', 2, '3', true, false]), 'found the needle at position 3');
         chai_1.assert.strictEqual((0, a_8kyu_a_needle_in_the_haystack_1.findNeedle)(['283497238987234', 'a dog', 'a cat', 'some random junk', 'a piece of hay', 'needle', 'something somebody lost a while ago']), 'found the needle at position 5');

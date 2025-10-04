@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const chai_1 = require("chai");
 const e_4kyu_snail_1 = require("../src/e_4kyu_snail");
-describe("Test e_4kyu_snail", () => {
+describe("Test e_4kyu_snail.spec.ts", () => {
     it("test", () => {
         chai_1.assert.deepEqual((0, e_4kyu_snail_1.snail)([[]]), []);
         chai_1.assert.deepEqual((0, e_4kyu_snail_1.snail)([[1]]), [1]);
