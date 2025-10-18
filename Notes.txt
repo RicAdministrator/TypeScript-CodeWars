@@ -34,3 +34,6 @@ E:\Git\TypeScript-CodeWars> npx mocha --require ts-node/register test\a_8kyu_a_n
 
 auto indent
 shft+alt+f
+
+chai single test
+package.json > "test": "mocha --require ts-node/register test/i_codility_1.spec.ts"
