@@ -36,4 +36,4 @@ auto indent
 shft+alt+f
 
 chai single test
-package.json > "test": "mocha --require ts-node/register test/i_codility_1.spec.ts"
+package.json > "test": "mocha --require ts-node/register test/a_8kyu_a_needle_in_the_haystack.spec.ts"
